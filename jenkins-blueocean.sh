@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker build -t myjenkins-blueocean:2.346.1-1 .
 docker run \
   --name jenkins-blueocean \
   --detach \
